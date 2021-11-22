@@ -3,9 +3,10 @@
     <v-app-bar
       app
       color="primary"
-      green
+      dark
     >
       <div class="d-flex align-center">
+        <span> "Deine Mama Überschrift" </span>
         <v-img
           alt="Vuetify Logo"
           class="shrink mr-2"
@@ -16,7 +17,7 @@
         />
 
         <v-img
-          alt="Vuetify Name"
+          alt="Vuetify Logo"
           class="shrink mt-1 hidden-sm-and-down"
           contain
           min-width="100"
@@ -28,13 +29,20 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+            to="/home"
+            target="_blank"
+            text
+          >
+            <span class="mr-1">Home</span>
+            <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
+      <v-btn
+              to="/about" text class="mr-1">About
+      </v-btn>
+      <v-btn
+      to="/contact" text class="mr-1">Contact
+      </v-btn>
+
     </v-app-bar>
 
     <v-main>
