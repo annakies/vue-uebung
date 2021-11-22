@@ -3,7 +3,7 @@
     <v-app-bar
       app
       color="primary"
-      dark
+      green
     >
       <div class="d-flex align-center">
         <v-img
